@@ -2,13 +2,102 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>mahjongbrazil.com</title>
+  <title>Mahjong Brazil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding-top: 80px; /* Space for fixed nav */
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #006400;
+      color: white;
+      padding: 20px;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin: 40px 20px;
+    }
+
+    h2 {
+      color: #006400;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bem-vindo ao Mahjong Brazil</h1>
-  <p>
-    Seja bem-vindo ao mahjongbrazil.com! Aqui você vai descobrir o Filipino Mahjong, uma variação vibrante do tradicional jogo de peças originado na China, que incorpora regras únicas de combinação de mãos e pontuação, inspiradas pela cultura filipina. Para conhecer todos os detalhes e começar a jogar, acesse nossa <a href="regras.html">página de regras</a>.
-  </p>
+
+  <header>
+    <h1>Mahjong Brazil</h1>
+    <nav>
+      <a href="#regras-portugues">Regras em Português</a>
+      <a href="#rules-english">Rules in English</a>
+    </nav>
+  </header>
+
+  <section>
+    <p>
+      Este site é dedicado ao Filipino Mahjong, uma variação vibrante do tradicional jogo de peças originado na China. Com regras únicas e uma pontuação inspirada na cultura filipina, o Filipino Mahjong oferece uma experiência dinâmica e divertida. Explore abaixo as regras completas em <strong>português</strong> e <strong>inglês</strong>.
+    </p>
+  </section>
+
+  <section id="regras-portugues">
+    <h2>Regras em Português</h2>
+    <p><em>Conteúdo extraído do documento "regras_mahjongeira.docx"</em></p>
+    <p><strong>OBJETIVO:</strong> Ganhar uma mão vencedora composta por conjuntos completos.</p>
+    <p><strong>MÃO VENCEDORA:</strong> Pode ser composta por 1 par e 5 conjuntos completos de 3 ou 4 peças ou 7 pares e um conjunto completo.</p>
+    <p><strong>CONFIGURAÇÃO:</strong> Embaralhe as peças, monte as paredes, role os dados, distribua as peças, substitua flores, descarte.</p>
+    <p><strong>TURNO NORMAL:</strong> Decidir, pegar, descartar.</p>
+    <p><strong>PEGANDO PEÇAS:</strong> Prioridade: Mahjong > Kong > Pong > Chow. Revelar conjuntos ao pegar.</p>
+    <p><strong>VENCER:</strong> Completar mão válida, declarar “Mahjong!”, marcar pontos.</p>
+    <p><strong>JAI ALAI:</strong> 5 marcadores vencem o jogo. Vitórias especiais valem mais pontos (Bunot, Dados iguais, Antes do quinto, Sete pares, Roubar o Kong, Bisaklat).</p>
+    <p><strong>DEFINIÇÕES:</strong> Incluem termos como Bunot, Kong, Pong, Chow, Mano, Par, Mão Vencedora, etc.</p>
+    <p><strong>EXEMPLOS:</strong> João e Thiago vencem com mãos especiais e comemoram com estilo.</p>
+  </section>
+
+  <section id="rules-english">
+    <h2>Rules in English</h2>
+    <p><em>Content extracted from "regras_mahjongeira English.docx"</em></p>
+    <p><strong>GOAL:</strong> Assemble a winning hand composed of complete melds.</p>
+    <p><strong>WINNING HAND:</strong> Either 1 pair and 5 melds of 3 or 4 tiles, or 7 pairs and 1 meld.</p>
+    <p><strong>SETUP:</strong> Shuffle tiles, build walls, roll dice, deal tiles, replace flowers, discard.</p>
+    <p><strong>NORMAL TURN:</strong> Decide, draw, discard.</p>
+    <p><strong>CLAIMING TILES:</strong> Priority: Mahjong > Kong > Pong > Chow. Reveal completed sets.</p>
+    <p><strong>WINNING:</strong> Complete a valid hand, shout “Mahjong!”, mark your win.</p>
+    <p><strong>JAI ALAI:</strong> First to 5 markers wins. Special wins (Bunot, Seven Pairs, Rob the Kong, Bisaklat) earn bonus markers.</p>
+    <p><strong>DEFINITIONS:</strong> Includes terms like Balls, Bamboo, Character, Chow, Pong, Kong, Mano, Pair, Meld, etc.</p>
+    <p><strong>EXAMPLES:</strong> João and Thiago win with dramatic hands and joyful declarations.</p>
+  </section>
+
 </body>
 </html>
